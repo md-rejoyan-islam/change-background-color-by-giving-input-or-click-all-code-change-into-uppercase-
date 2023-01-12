@@ -51,6 +51,6 @@ copy.onclick = () => {
   const value = input.value;
   if (patternCheck(value)) {
     showResult.classList.remove("hidden");
-    showResult.innerHTML =     value ? `#${value} copied` : "#bae6fd copied" ;
+    showResult.innerHTML =     value ? `#${value} copied` : "#BAe6FD copied" ;
   }
 };
