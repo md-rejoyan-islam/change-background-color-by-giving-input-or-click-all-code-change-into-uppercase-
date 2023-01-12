@@ -1,4 +1,4 @@
-## Change Background Color By Clicking Or Giving Input Hex Color code
+## Change Background Color By Clicking Or Giving Input Hex Color code and color code show in Uppercase
 ****
 
 ### Using Tools
