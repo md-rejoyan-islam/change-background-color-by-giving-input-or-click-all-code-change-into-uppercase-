@@ -15,4 +15,4 @@
 * .toString(16) [for decimal to hexadecimal code]
 
 ### Live Website Link
-<a href="https://rejoyanislam.github.io/change-background-color-by-giving-input-hex-code-or-click-change-color-button/">Click</a>
+<a href="https://rejoyanislam.github.io/change-background-color-by-giving-input-or-click-all-code-change-into-uppercase-/">Click</a>
