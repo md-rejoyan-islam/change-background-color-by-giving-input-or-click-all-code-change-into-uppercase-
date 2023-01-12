@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script src="https://cdn.tailwindcss.com"></script>
+    <title>Change background color by clicking</title>
+</head>
+<body class="h-screen bg-sky-200 overflow-hidden grid content-center text-center mx-auto relative">
+    <h1 class="text-xl capitalize">change the background color by giving input or click(all color code change to uppercase) </h1>
+    <div class="flex gap-2 my-3 justify-center">
+        <div class=" relative flex items-center">
+            <span class=" bg-white absolute rounded-l-md pl-2">#</span>
+        <input class="  bg-white py-1 border-none rounded-md pl-[18px] w-fit "  id="input" value="bae6fd"></input>
+        </div>
+    <button class="px-2 hover:bg-blue-600 hover:text-white py-1 bg-white border rounded-md" id="copy">copy</button>
+    </div>
+    <button class="bg-black rounded-md px-4 py-1 text-white hover:bg-violet-500 uppercase w-fit mx-auto" onclick="change()">change color</button>
+    <div id="showResult" class="w-fit mx-auto bg-violet-400 px-3 py-1 rounded-md text-lg absolute top-[5%] right-[5%] hidden"><span></span></div>
+    <div id="showError" class="w-fit mx-auto bg-violet-400 px-3 py-1 rounded-md text-lg absolute top-[5%] right-[5%] hidden"><span></span></div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
