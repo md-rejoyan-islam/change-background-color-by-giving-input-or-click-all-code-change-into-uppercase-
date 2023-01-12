@@ -10,6 +10,8 @@
 * setInterval
 * Math.floor
 * Math.random
+* oninput event handler
+* onmouseup event handler
 * .toString(16) [for decimal to hexadecimal code]
 
 ### Live Website Link
